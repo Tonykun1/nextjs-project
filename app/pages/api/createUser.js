@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
 
-const filePath = path.join(process.cwd(), 'data', 'users.json'); 
+const filePath = "../../data/users.json"; 
 
 export default function POST(req, res) {
   if (req.method === 'POST') {
